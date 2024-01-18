@@ -1,0 +1,105 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Hello",
+          "How are you?",
+          "Good morning",
+          "Good afternoon",
+          "Good evening",
+          "What's up?"
+        ],
+        "responses": [
+          "Hi there!",
+          "Hello!",
+          "Hey there!",
+          "How's it going?",
+          "Good to see you!",
+          "How can I help you today?",
+          "What's on your mind?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "Goodbye",
+          "See you later",
+          "Talk to you soon",
+          "Have a good day",
+          "Take care",
+          "Cheers",
+          "Until next time"
+        ],
+        "responses": [
+          "Goodbye!",
+          "See you later!",
+          "Have a great day!",
+          "Take care!",
+          "Until next time!",
+          "I'll be here if you need anything else."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thank you",
+          "Thanks",
+          "That's helpful",
+          "I appreciate it",
+          "You're awesome",
+          "You're the best"
+        ],
+        "responses": [
+          "You're welcome!",
+          "No problem!",
+          "Glad I could help!",
+          "Happy to be of assistance!",
+          "My pleasure!"
+        ]
+      },
+      {
+        "tag": "apology",
+        "patterns": [
+          "Sorry",
+          "I apologize",
+          "My bad",
+          "Excuse me",
+          "Pardon me",
+          "I didn't mean to"
+        ],
+        "responses": [
+          "No worries!",
+          "That's okay!",
+          "Don't worry about it!",
+          "It's alright!",
+          "No need to apologize."
+        ]
+      },
+      {
+        "tag": "question",
+        "patterns": [
+          "What is your name?",
+          "How are you doing?",
+          "What can you do?",
+          "Can you help me with something?",
+          "What's the weather like today?",
+          "Tell me a joke",
+          "What's the news today?"
+        ],
+        "responses": [
+          "My name is Bard. I'm a large language model, here to help you with any questions or tasks you have.",
+          "I'm doing great, thanks for asking!",
+          "I can do a variety of things, like answer questions, generate text, translate languages, and more.",
+          "Sure, I'd be happy to help! Just ask me what you need.",
+          "It's currently {{ weather_description }} with a temperature of {{ current_temperature }} degrees Fahrenheit.",
+          "Here's a joke: {{ joke }}.",
+          "Here are some of the top news headlines for today: {{ news_headlines }}."
+        ]
+      }
+    ]
+  }
+  
